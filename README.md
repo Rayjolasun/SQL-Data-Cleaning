@@ -29,4 +29,10 @@ There are more than 56600 rows on this dataset and 30 columns that are titled: U
 The following skills were demonstrated in this data cleaning project using SQL:
 1. SQL database: The project requires knowledge and expertise in SQL for managing and manipulating relational databases
 2. Data wrangling: Data cleaning requires the ability to identify and address errors, inconsistencies, and missing values in the data.
-3. 
+3. Data analysis: The project requires knowledge of data analysis techniques to identify patterns, trends, and insights in the data.
+4. Data optimization: The project requires the ability to optimize the data structure for improved analysis and insights.
+5. Problem-solving: Data cleaning projects require problem-solving skills to identify and address issues in the data.
+6. Attention to detail: Data cleaning requires a keen eye for detail to ensure data accuracy and completeness.
+7. Communication: The project requires effective communication skills to present findings and recommendations to stakeholders.
+
+
