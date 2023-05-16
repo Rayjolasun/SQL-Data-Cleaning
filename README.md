@@ -95,4 +95,7 @@ The Sale_Date column was formated with Date-Time format in this dataset but the 
 
 The time component was removed using the below query:
 
-
+<p align="center">
+  <img src="Sale_Date_Query.JPG">
+  <br>Query 2
+</p>
