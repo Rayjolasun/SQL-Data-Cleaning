@@ -100,6 +100,8 @@ The time component was removed using the query below:
   <br>Query 2
 </p>
 
+. . .
+
 This process was achieved by first altering the table adding a Sale_Date2 column and converted it by setting the date type as Date.
 The below image show the existing date time column and the created date column
 
