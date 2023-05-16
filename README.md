@@ -93,9 +93,17 @@ The image below shows the renamed columns to be used for further cleaning as sta
 
 The Sale_Date column was formated with Date-Time format in this dataset but the time component is not necessary which has to be removed because the dataset is not for Time siries analysis.
 
-The time component was removed using the below query:
+The time component was removed using the query below:
 
 <p align="center">
   <img src="Sale_Date_Query.JPG">
   <br>Query 2
+</p>
+
+This process was achieved by first altering the table adding a Sale_Date2 column and converted it by setting the date type as Date.
+The below image show the existing date time column and the created date column
+
+<p align="center">
+  <img src="Sale_Date 2.JPG">
+  <br>Sale_Date2
 </p>
