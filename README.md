@@ -91,4 +91,8 @@ The image below shows the renamed columns to be used for further cleaning as sta
 
 ### Standardize the Date format (Eliminating the time constraints from the Sale Date column)
 
-The Sale_Date column was formated with Date-Time format in this dataset but the time component is not necessary in this dataset because the dataset is not for Time siries analysis which has to be removed.
+The Sale_Date column was formated with Date-Time format in this dataset but the time component is not necessary which has to be removed because the dataset is not for Time siries analysis.
+
+The time component was removed using the below query:
+
+
