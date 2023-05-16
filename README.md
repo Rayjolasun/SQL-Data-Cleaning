@@ -7,25 +7,25 @@ Data cleaning is a crucial process in any data analytics project, as it ensures 
 
 In this project, I used the Microsoft SQL Server in cleaning the dataset.
 
-                                                  . . .
+                                                      . . .
 
 The full query for this project can be found here
 
-                                                  . . .
+                                                      . . .
 
 ### Data Sourcing
 
 The dataset that I used in this project is open-source data without any PII (Personally Identifiable Information) that I acquired from Kaggle. The dataset includes information of real estate data from the hot Nashville housing market.
 There are more than 56600 rows on this dataset and 30 columns that are titled: Unnamed, Parcel ID, Land Use, Property Address, Suite/ Condo #, Property City, Sale Date, Sale Price, Legal Reference, Sold As Vacant, Multiple Parcels Involved in Sale, Owner Name, Address, City, State, Acreage, Tax District, Neighborhood, Image, Land Value, Building Value, Total Value, Finished Area, Foundation Type, Year Built, Exterior Wall, Grade, Bedrooms, Full Bath, Half Bath. This dataset has a lot of inconsistencies which makes this dataset perfect to practice data cleaning.
 
-                                                  . . .
+                                                      . . .
 
 <p align="center">
   <img src="Excel-Dataset.JPG">
   <br>Excel raw data
 </p>
 
-                                                  . . .
+                                                      . . .
 
 ## Objective of the project
 
@@ -37,7 +37,7 @@ There are more than 56600 rows on this dataset and 30 columns that are titled: U
 6. Remove Duplicates
 7. Delete Unused Columns
 
-                                                  . . .
+                                                      . . .
 
 ## Skills / Concepts Demonstrated
 
@@ -50,7 +50,7 @@ The following skills were demonstrated in this data cleaning project using SQL:
 - Attention to detail: Data cleaning requires a keen eye for detail to ensure data accuracy and completeness.
 - Communication: The project requires effective communication skills to present findings and recommendations to stakeholders.
 
-                                                  . . .
+                                                      . . .
 
 ## Procedure
 
@@ -58,10 +58,14 @@ Firstly, I pulled the whole dataset to view all the rows and columns. I noticed 
 
 ### Rename column names (replacing the spacing with an underscore)
 
+                                                      . . .
+
 <p align="center">
   <img src="Unformated_Column_names_.JPG">
   <br>Unformated Column Names
 </p>
+
+                                                      . . .
 
 I noticed that the column names have spacing between them, this could still be used in a query by opening and closing it with a square bracket but it is not a standard practice of naming a column.
 
