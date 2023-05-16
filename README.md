@@ -114,4 +114,6 @@ The below image show the existing date time column and the created date column
 
 The Property_Address column was noticed to have so many **NULL** values and it is an important column in the dataset which shows the location of a propertty to be analysed. This has to be corrected because it will sway the outcome of the analysis should the dataset be used further for analysis.
 
-The query below was used to populate the NULL values
+The query below was used to populate the NULL values:
+
+
