@@ -18,7 +18,7 @@ The full query for this project can be found here
 The dataset that I used in this project is open-source data without any PII (Personally Identifiable Information) that I acquired from Kaggle. The dataset includes information of real estate data from the hot Nashville housing market.
 There are more than 56600 rows on this dataset and 30 columns that are titled: Unnamed, Parcel ID, Land Use, Property Address, Suite/ Condo #, Property City, Sale Date, Sale Price, Legal Reference, Sold As Vacant, Multiple Parcels Involved in Sale, Owner Name, Address, City, State, Acreage, Tax District, Neighborhood, Image, Land Value, Building Value, Total Value, Finished Area, Foundation Type, Year Built, Exterior Wall, Grade, Bedrooms, Full Bath, Half Bath. This dataset has a lot of inconsistencies which makes this dataset perfect to practice data cleaning.
 
-                                                      . . .
+                                                     . . .
 
 <p align="center">
   <img src="Excel-Dataset.JPG">
@@ -56,24 +56,38 @@ The following skills were demonstrated in this data cleaning project using SQL:
 
 Firstly, I pulled the whole dataset to view all the rows and columns. I noticed that some faults were present in the dataset such as the column names that waere not properly formated by having spacing between the words. Sale Date column which is in Date-Time format, there were many NULL values in some important parts of the dataset such as the Property Address and Property City, there were also some abreviations and misspellings which might alter the analysis should this be later used for analysis, there were duplicate values present and also some extra columns that are not needed for further analysis.
 
-### Rename column names (replacing the spacing with an underscore)
-
                                                       . . .
 
-<p align="center">
+### Rename column names (replacing the spacing with an underscore)
+
+
+  
+ <p align="center">
   <img src="Unformated_Column_names_.JPG">
   <br>Unformated Column Names
 </p>
 
-                                                      . . .
-
 I noticed that the column names have spacing between them, this could still be used in a query by opening and closing it with a square bracket but it is not a standard practice of naming a column.
+
+. . .
 
 The spacing was replaced with an underscore and a column was re-named using the below query:
 
-p
+<p align="center">
+  <img src="Rename_column_query.JPG">
+  <br>Query 1
+</p>
+
+. . .
 
 The image below shows the renamed columns to be used for further cleaning as standard practice.
+
+<p align="center">
+  <img src="Formated_column_names.JPG">
+  <br> Formated Column Names
+</p>
+
+                                                      . . .
 
 ### Standardize the Date format (Eliminating the time constraints from the Sale Date column)
 
