@@ -8,12 +8,12 @@ Data cleaning is a crucial process in any data analytics project, as it ensures 
 In this project, I used the Microsoft SQL Server in cleaning the dataset.
                                                       
 
-The full query for this project can be found **here**
+The full query for this project can be found [here]()
                                                       
 
 ### Data Sourcing
 
-The dataset that I used in this project is open-source data without any PII (Personally Identifiable Information) that I acquired from **<span style="color:#0000FF">Kaggle</span>**. The dataset includes information of real estate data from the hot Nashville housing market.
+The dataset that I used in this project is open-source data without any PII (Personally Identifiable Information) that I acquired from [Kaggle](https://www.kaggle.com/datasets/tmthyjames/nashville-housing-data?resource=download). The dataset includes information of real estate data from the hot Nashville housing market.
 There are more than 56600 rows on this dataset and 30 columns that are titled: Unnamed, Parcel ID, Land Use, Property Address, Suite/ Condo #, Property City, Sale Date, Sale Price, Legal Reference, Sold As Vacant, Multiple Parcels Involved in Sale, Owner Name, Address, City, State, Acreage, Tax District, Neighborhood, Image, Land Value, Building Value, Total Value, Finished Area, Foundation Type, Year Built, Exterior Wall, Grade, Bedrooms, Full Bath, Half Bath. This dataset has a lot of inconsistencies which makes this dataset perfect to practice data cleaning.
 
                                                      . . .
@@ -108,10 +108,26 @@ The below image show the existing date time column and the created date column
   <br>Sale_Date2
 </p>
 
+                                                        . . .
+
 ### Populate Null Property Address Data
 
 The Property_Address column was noticed to have so many **NULL** values and it is an important column in the dataset which shows the location of a propertty to be analysed. This has to be corrected because it will sway the outcome of the analysis should the dataset be used further for analysis.
 
 The query below was used to populate the NULL values:
 
+<p align="center">
+  <img src="Property_Address_Query.JPG">
+  <br>Query 3
+</p>
 
+---
+
+The below image show the NULL values in the Property_Address column:
+
+<p align="center">
+  <img src="Property_Address_Null.JPG">
+  <br>Property Address Null
+</p>
+
+From the 
