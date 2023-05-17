@@ -152,3 +152,8 @@ The **ISNULL** has populated the NULL cells with the **Property_Addresses** wher
 
 I can now update the table with the below query:
 
+
+
+If I run the previous query 4, it populated 10 rows of NULL cells where there are no matching Parcel_Id and the Property_Address..
+If I run the query where Property_Address ISNULL it gives 143 rows. This means that 143 rows of the data does not have Property_Address at all which will be recported to the stakeholders.
+
