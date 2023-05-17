@@ -130,4 +130,25 @@ The below image show the NULL values in the Property_Address column:
   <br>Property Address Null
 </p>
 
-From the 
+From the image above, the **NULL** values are 159 in total which will have to be populatd.
+
+The query below shows that some rows with similar Parcel ID has the same Property Address:
+
+<p align="center">
+  <img src="Property-ParcelID.JPG">
+  <br>Query 4
+</p>
+
+This relationship between the **Parcel_ID** and the **Property_Address** can be used to populate the **NULL** values in the Property Address column using a **SELF JOIN** of the table itself using the query below:
+
+<p align="center">
+  <img src="Property-Parcel-Join.JPG">
+  <br>Query 5
+</p>
+
+For the **JOIN** to function in the query above, I just gave the joined tables the names "a" and "b" at random. *IsNULL(where we want to look for a NULL value, what we want to populate the NULL value with)* is the syntax for this statement. The addresses where the **Parcel_ID** is common and the **Unique_IDs** don't match were filled in by the **ISNULL** query in the NULL cells. Due to the possibility that the **Parcel_IDs** for two different rows could be identical, but not the **Unique_ID**, I used the **Unique_ID** to prevent the same **Parcel_IDs** from being compared more than once.
+
+The **ISNULL** has populated the NULL cells with the **Property_Addresses** where it has same **Parcel ID** with 18 rows. The remaining 10 rows does not have **Property_Address** populated.
+
+I can now update the table with the below query:
+
