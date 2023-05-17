@@ -89,7 +89,7 @@ The image below shows the renamed columns to be used for further cleaning as sta
 
 ### Standardize the Date format (Eliminating the time constraints from the Sale Date column)
 
-The Sale_Date column was formated with Date-Time format in this dataset but the time component is not necessary which has to be removed because the dataset is not for Time siries analysis.
+The **Sale_Date** column was formated with **Date-Time** format in this dataset but the time component is not necessary which has to be removed because the dataset is not for Time siries analysis.
 
 The time component was removed using the query below:
 
@@ -100,8 +100,8 @@ The time component was removed using the query below:
 
 . . .
 
-This process was achieved by first altering the table adding a Sale_Date2 column and converted it by setting the date type as Date.
-The below image show the existing date time column and the created date column
+This process was achieved by first altering the table adding a **Sale_Date2** column and converted it by setting the date type as **Date**.
+The below image show the existing **Dete-Time** column and the created **Date** column
 
 <p align="center">
   <img src="Sale_Date 2.JPG">
@@ -112,9 +112,9 @@ The below image show the existing date time column and the created date column
 
 ### Populate Null Property Address Data
 
-The Property_Address column was noticed to have so many **NULL** values and it is an important column in the dataset which shows the location of a propertty to be analysed. This has to be corrected because it will sway the outcome of the analysis should the dataset be used further for analysis.
+The **Property_Address** column was noticed to have so many **NULL** values and it is an important column in the dataset which shows the location of a propertty to be analysed. This has to be corrected because it will sway the outcome of the analysis should the dataset be used further for analysis.
 
-The query below was used to populate the NULL values:
+The query below was used to populate the **NULL** values:
 
 <p align="center">
   <img src="Property_Address_Query.JPG">
@@ -123,32 +123,32 @@ The query below was used to populate the NULL values:
 
 ---
 
-The below image show the NULL values in the Property_Address column:
+The below image show the **NULL** values in the **Property_Address** column:
 
 <p align="center">
   <img src="Property_Address_Null.JPG">
   <br>Property Address Null
 </p>
 
-From the image above, the **NULL** values are 159 in total which will have to be populatd.
+From the image above, the **NULL** values are **159** in total which will have to be populatd.
 
-The query below shows that some rows with similar Parcel ID has the same Property Address:
+The query below shows that some rows with similar **Parcel_ID** has the same Property Address:
 
 <p align="center">
   <img src="Property-ParcelID.JPG">
   <br>Query 4
 </p>
 
-This relationship between the **Parcel_ID** and the **Property_Address** can be used to populate the **NULL** values in the Property Address column using a **SELF JOIN** of the table itself using the query below:
+This relationship between the **Parcel_ID** and the **Property_Address** can be used to populate the **NULL** values in the **Property_Address** column using a **SELF JOIN** of the table itself with the query below:
 
 <p align="center">
   <img src="Property-Parcel-Join.JPG">
   <br>Query 5
 </p>
 
-For the **JOIN** to function in the query above, I just gave the joined tables the names "a" and "b" at random. *IsNULL(where we want to look for a NULL value, what we want to populate the NULL value with)* is the syntax for this statement. The addresses where the **Parcel_ID** is common and the **Unique_IDs** don't match were filled in by the **ISNULL** query in the NULL cells. Due to the possibility that the **Parcel_IDs** for two different rows could be identical, but not the **Unique_ID**, I used the **Unique_ID** to prevent the same **Parcel_IDs** from being compared more than once.
+For the **JOIN** to function in the query above, I just gave the joined tables the names "a" and "b" at random. *IsNULL(where we want to look for a NULL value, what we want to populate the NULL value with)* is the syntax for this statement. The addresses where the **Parcel_ID** is common and the **Unique_IDs** don't match were filled in by the **ISNULL** query in the **NUL** cells. Due to the possibility that the **Parcel_IDs** for two different rows could be identical, but not the **Unique_ID**, I used the **Unique_ID** to prevent the same **Parcel_IDs** from being compared more than once.
 
-The **ISNULL** has populated the NULL cells with the **Property_Addresses** where it has same **Parcel ID** with 18 rows. The remaining 10 rows does not have **Property_Address** populated.
+The **ISNULL** has populated the NULL cells with the **Property_Addresses** where it has same **Parcel_ID** with **18 rows**. The remaining **10 rows** does not have **Property_Address** populated.
 
 I can now update the table with the below query:
 
