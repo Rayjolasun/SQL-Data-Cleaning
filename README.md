@@ -23,7 +23,7 @@ There are more than 56600 rows on this dataset and 30 columns that are titled: U
   <br>Excel raw data
 </p>
 
-                                                      . . .
+<br>
 
 ## Objective of the project
 
