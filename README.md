@@ -56,7 +56,7 @@ Firstly, I pulled the whole dataset to view all the rows and columns. I noticed 
 
 <br>
 
-### Rename column names (replacing the spacing with an underscore)
+### Rename column names (replacing the spacing with an underscore and capitalize the first letters)
 
 
   
