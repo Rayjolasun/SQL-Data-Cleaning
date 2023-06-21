@@ -178,6 +178,46 @@ I can now update the table with the below query:
   <br>Query 7
 </p>
 
-If I run the previous Query 4, it populated 10 rows of NULL cells where there are no matching Parcel_Id and the Property_Address..
+If I run the previous Query 6, it populated 10 rows of NULL cells where there are no matching Parcel_Id and the Property_Address..
 If I run the query where Property_Address ISNULL it gives 143 rows. This means that 143 rows of the data does not have Property_Address at all which will be reported to the stakeholders.
 
+
+<br>
+
+### Populate Null Property City data
+
+The **Property_City** column was also noticed to have so many **NULL** values and it is an important column in the dataset which shows the location of a property to be analyzed because knowing the address wthout the city won't give us clue about the location.
+
+The query below was used to populate the **NULL** values of the Property_City:
+
+<p align="center">
+  <img src="Property_City_Query.JPG">
+  <br>Query 8
+</p>
+
+<br>
+
+The below image show the **NULL** values in the **Property_City** column:
+
+<p align="center">
+  <img src="Property_City_Null.JPG">
+  <br>Property City Null
+</p>
+
+<br>
+
+The query below was used to populate the Count of **NULL** values in the Property_City column:
+
+<p align="center">
+  <img src="Count_Property_City_Null.JPG">
+  <br>Query 9
+</p>
+
+<br>
+
+<p align="center">
+  <img src="Property_City_Null_Count.JPG">
+  <br>Property City Null Count
+</p>
+
+From the image above, the **NULL** values are **159** in total which will have to be populatd.
