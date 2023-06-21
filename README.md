@@ -133,7 +133,7 @@ The below image show the **NULL** values in the **Property_Address** column:
 The query below was used to populate the Count of **NULL** values in the Property_Address column:
 
 <p align="center">
-  <img src="Count_Property_Address_Null_Query.JPG">
+  <img src="Count_Property_Address_Null.JPG">
   <br>Query 4
 </p>
 
@@ -142,6 +142,7 @@ The query below was used to populate the Count of **NULL** values in the Propert
 From the image above, the **NULL** values are **159** in total which will have to be populatd.
 
 <br>
+
 The query below shows that some rows with similar **Parcel_ID** has the same Property Address:
 
 <p align="center">
