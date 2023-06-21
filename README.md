@@ -133,14 +133,14 @@ The below image show the **NULL** values in the **Property_Address** column:
 The query below was used to populate the Count of **NULL** values in the Property_Address column:
 
 <p align="center">
-  <img src="Count_Property_Address_Null.JPG">
+  <img src="Count_Property_Address_Null.jpg">
   <br>Query 4
 </p>
 
 <br>
 
 <p align="center">
-  <img src="Property_Address_Null_Count.JPG">
+  <img src="Property_Address_Null_Count.jpg">
   <br>Property Address Null Count
 </p>
 
