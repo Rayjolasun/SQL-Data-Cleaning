@@ -227,7 +227,7 @@ From the image above, the **NULL** values are **159** in total which will have t
 The query below shows that some rows with similar **Parcel_ID** has the same Property_City:
 
 <p align="center">
-  <img src="Property_City-ParcelID.JPG">
+  <img src="Property_City-ParcelID.jpg">
   <br>Query 10
 </p>
 
@@ -236,7 +236,7 @@ The query below shows that some rows with similar **Parcel_ID** has the same Pro
 This relationship between the **Parcel_ID** and the **Property_City** can be used to populate the **NULL** values in the **Property_City** column using a **SELF JOIN** of the table itself with the query below:
 
 <p align="center">
-  <img src="Property_City-Parcel-Join.JPG">
+  <img src="Property_City-Parcel-Join.jpg">
   <br>Query 11
 </p>
 
