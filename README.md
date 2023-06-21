@@ -130,6 +130,7 @@ The below image show the **NULL** values in the **Property_Address** column:
   <br>Property Address Null
 </p>
 
+<br>
 
 The query below was used to populate the Count of **NULL** values in the Property_Address column:
 
@@ -137,7 +138,6 @@ The query below was used to populate the Count of **NULL** values in the Propert
   <img src="Count_Property_Address_Null.jpg">
   <br>Query 4
 </p>
-
 
 <br>
 
@@ -158,6 +158,8 @@ The query below shows that some rows with similar **Parcel_ID** has the same Pro
   <br>Query 5
 </p>
 
+<br>
+
 This relationship between the **Parcel_ID** and the **Property_Address** can be used to populate the **NULL** values in the **Property_Address** column using a **SELF JOIN** of the table itself with the query below:
 
 <p align="center">
@@ -171,7 +173,10 @@ The **ISNULL** has populated the NULL cells with the **Property_Addresses** wher
 
 I can now update the table with the below query:
 
-
+<p align="center">
+  <img src="Property_Address_Populated_Query.JPG">
+  <br>Query 7
+</p>
 
 If I run the previous Query 4, it populated 10 rows of NULL cells where there are no matching Parcel_Id and the Property_Address..
 If I run the query where Property_Address ISNULL it gives 143 rows. This means that 143 rows of the data does not have Property_Address at all which will be reported to the stakeholders.
