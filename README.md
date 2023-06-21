@@ -139,6 +139,11 @@ The query below was used to populate the Count of **NULL** values in the Propert
 
 <br>
 
+<p align="center">
+  <img src="Property_Address_Null_Count.JPG">
+  <br>Property Address Null Count
+</p>
+
 From the image above, the **NULL** values are **159** in total which will have to be populatd.
 
 <br>
