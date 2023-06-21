@@ -151,7 +151,7 @@ From the image above, the **NULL** values are **159** in total which will have t
 <br>
 
 
-The query below shows that some rows with similar **Parcel_ID** has the same Property Address:
+The query below shows that some rows with similar **Parcel_ID** has the same Property_Address:
 
 <p align="center">
   <img src="Property-ParcelID.JPG">
@@ -221,3 +221,35 @@ The query below was used to populate the Count of **NULL** values in the Propert
 </p>
 
 From the image above, the **NULL** values are **159** in total which will have to be populatd.
+
+<br>
+
+The query below shows that some rows with similar **Parcel_ID** has the same Property_City:
+
+<p align="center">
+  <img src="Property_City-ParcelID.JPG">
+  <br>Query 10
+</p>
+
+<br>
+
+This relationship between the **Parcel_ID** and the **Property_City** can be used to populate the **NULL** values in the **Property_City** column using a **SELF JOIN** of the table itself with the query below:
+
+<p align="center">
+  <img src="Property_City-Parcel-Join.JPG">
+  <br>Query 11
+</p>
+
+For the **JOIN** to function in the query above, I just gave the joined tables the names "a" and "b" at random. *ISNULL(where we want to look for a NULL value, what we want to populate the NULL value with)* is the syntax for this statement. The city where the **Parcel_ID** is common and the **Unique_IDs** don't match were filled in by the **ISNULL** query in the **NUL** cells. Due to the possibility that the **Parcel_IDs** for two different rows could be identical, but not the **Unique_ID**, I used the **Unique_ID** to prevent the same **Parcel_IDs** from being compared more than once.
+
+The **ISNULL** has populated the NULL cells with the **Property_City** where it has same **Parcel_ID** with **18 rows**. The remaining **10 rows** does not have **Property_City** populated.
+
+I can now update the table with the below query:
+
+<p align="center">
+  <img src="Property_City_Populated_Query.jpg">
+  <br>Query 12
+</p>
+
+If I run the previous Query 11, it populated 10 rows of NULL cells where there are no matching Parcel_Id and the Property_Address..
+If I run the query where Property_Address ISNULL it gives 143 rows. This means that 143 rows of the data does not have Property_Address at all which will be reported to the stakeholders.
