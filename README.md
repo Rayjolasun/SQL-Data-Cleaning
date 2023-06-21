@@ -174,7 +174,7 @@ The **ISNULL** has populated the NULL cells with the **Property_Addresses** wher
 I can now update the table with the below query:
 
 <p align="center">
-  <img src="Property_Address_Populated_Query.JPG">
+  <img src="Property_Address_Populated_Query.jpg">
   <br>Query 7
 </p>
 
