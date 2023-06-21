@@ -209,14 +209,14 @@ The below image show the **NULL** values in the **Property_City** column:
 The query below was used to populate the Count of **NULL** values in the Property_City column:
 
 <p align="center">
-  <img src="Count_Property_City_Null.JPG">
+  <img src="Count_Property_City_Null.jpg">
   <br>Query 9
 </p>
 
 <br>
 
 <p align="center">
-  <img src="Property_City_Null_Count.JPG">
+  <img src="Property_City_Null_Count.jpg">
   <br>Property City Null Count
 </p>
 
