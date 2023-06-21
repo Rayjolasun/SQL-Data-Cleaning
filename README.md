@@ -104,7 +104,7 @@ This process was achieved by first altering the table adding a **Sale_Date2** co
 The below image show the existing **Dete-Time** column and the created **Date** column
 
 <p align="center">
-  <img src="Sale_Date 2.JPG">
+  <img src="Sale_Date2.JPG">
   <br>Sale_Date2
 </p>
 
