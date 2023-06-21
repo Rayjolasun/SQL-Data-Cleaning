@@ -179,7 +179,7 @@ I can now update the table with the below query:
 </p>
 
 If I run the previous Query 6, it populated 10 rows of NULL cells where there are no matching Parcel_Id and the Property_Address..
-If I run the query where Property_Address ISNULL it gives 143 rows. This means that 143 rows of the data does not have Property_Address at all which will be reported to the stakeholders.
+If I run the query where Property_Address ISNULL it gives 144 rows. This means that 144 rows of the data does not have Property_Address at all which will be reported to the stakeholders.
 
 
 <br>
@@ -251,5 +251,5 @@ I can now update the table with the below query:
   <br>Query 12
 </p>
 
-If I run the previous Query 11, it populated 10 rows of NULL cells where there are no matching Parcel_Id and the Property_Address..
-If I run the query where Property_Address ISNULL it gives 143 rows. This means that 143 rows of the data does not have Property_Address at all which will be reported to the stakeholders.
+If I run the previous Query 11, it populated 10 rows of NULL cells where there are no matching Parcel_Id and the Property_City.
+If I run the query where Property_City ISNULL it gives 144 rows. This means that 144 rows of the data does not have Property_City at all which will be reported to the stakeholders.
