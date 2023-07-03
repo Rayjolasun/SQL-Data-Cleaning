@@ -200,7 +200,7 @@ The query below was used to populate the **NULL** values of the Property_City:
 The below image show the **NULL** values in the **Property_City** column:
 
 <p align="center">
-  <img src="Property_City_Null.JPG">
+  <img src="Property_City_Null.jpg">
   <br>Property City Null
 </p>
 
