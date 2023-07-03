@@ -267,3 +267,12 @@ The Land_Use column in the Nashville Housing dataset contains different types of
 </p>
 
 <br>
+
+The query above shows Vacant residential land has 3 distinct values as a result of abbreviations and misspelling which are shown below
+
+<br>
+
+<p align="center">
+  <img src="LandUse_Distinct_Image.jpg">
+  <br>Distinct Land_Use
+</p>
