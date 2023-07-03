@@ -253,3 +253,17 @@ I can now update the table with the below query:
 
 If I run the previous Query 11, it populated 10 rows of NULL cells where there are no matching Parcel_Id and the Property_City.
 If I run the query where Property_City ISNULL it gives 144 rows. This means that 144 rows of the data does not have Property_City at all which will be reported to the stakeholders.
+
+
+<br>
+
+### Change abbreviations and correct misspellings in Column Land Use
+
+The Land_Use column in the Nashville Housing dataset contains different types of usage of the land. This could be confirmed with the query below.
+
+<p align="center">
+  <img src="LandUse_Distinct_Query.JPG">
+  <br>Query 13
+</p>
+
+<br>
