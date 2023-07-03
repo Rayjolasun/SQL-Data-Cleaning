@@ -262,7 +262,7 @@ If I run the query where Property_City ISNULL it gives 144 rows. This means that
 The Land_Use column in the Nashville Housing dataset contains different types of usage of the land. This could be confirmed with the query below.
 
 <p align="center">
-  <img src="LandUse_Distinct_Query.JPG">
+  <img src="LandUse_Distinct_Query.jpg">
   <br>Query 13
 </p>
 
