@@ -298,3 +298,21 @@ In the below image, the value could be seen to be considerably high which could 
 </p>
 
 <br>
+
+From the above image it could be seen that;
+‘VACANT RESIENTIAL LAND’ haas 3 values
+‘VACANT RESIDENTIAL LAND’ has 3586 values
+‘VACANT RES LAND’ has 1575 values
+
+I now have to convert the mispelled words to **VACANT RESIDENTIAL LAND** and to do this I wrote the following query using case statement
+
+
+<p align="center">
+  <img src="LandUse_Count_Query.jpg">
+  <br>Query 15
+</p>
+
+<br>
+
+Looking at the above query shows that the mispelled values have been converted to **VACANT RESIDENTIAL LAND**. Then I will update this into the table as shown in the query below.
+
