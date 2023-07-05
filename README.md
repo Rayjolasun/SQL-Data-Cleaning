@@ -276,3 +276,14 @@ The query above shows Vacant residential land has 3 distinct values as a result 
   <img src="LandUse_Distinct_Image.jpg">
   <br>Distinct Land_Use
 </p>
+
+<br>
+
+<p align="center">
+  <img src="LandUse_Count_Query.jpg">
+  <br>Query 14
+</p>
+
+<br>
+
+The count query above shows the count of each of the 3 distinct values
