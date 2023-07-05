@@ -299,7 +299,7 @@ The count query above shows the count of each of the 3 distinct values which can
 
 In the above image, the value could be seen to be considerably high which could effectively sway the outcome of the analysis if not corrected.
 
-From the above image it could be seen that;
+From the above image it could also be seen that;
 **‘VACANT RESIENTIAL LAND’** has 3 values
 **‘VACANT RESIDENTIAL LAND’** has 3586 values
 **‘VACANT RES LAND’** has 1575 values
