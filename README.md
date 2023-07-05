@@ -290,14 +290,14 @@ The count query above shows the count of each of the 3 distinct values which can
 
 <br>
 
-In the below image, the value could be seen to be considerably high which could effectively sway the outcome of the analysis if not corrected.
-
 <p align="center">
   <img src="LandUse_Count_Image.jpg">
   <br>Land_Use Count
 </p>
 
 <br>
+
+In the below image, the value could be seen to be considerably high which could effectively sway the outcome of the analysis if not corrected.
 
 From the above image it could be seen that;
 ‘VACANT RESIENTIAL LAND’ haas 3 values
@@ -308,11 +308,28 @@ I now have to convert the mispelled words to **VACANT RESIDENTIAL LAND** and to 
 
 
 <p align="center">
-  <img src="LandUse_Count_Query.jpg">
+  <img src="LandUse_Case_Query.jpg">
   <br>Query 15
 </p>
 
 <br>
 
-Looking at the above query shows that the mispelled values have been converted to **VACANT RESIDENTIAL LAND**. Then I will update this into the table as shown in the query below.
+Looking at the above query shows that the mispelled values have been converted to **VACANT RESIDENTIAL LAND** as seen in the image below.
 
+<br>
+
+<p align="center">
+  <img src="LandUse_Case_Image.jpg">
+  <br>Land_Use Case Statement
+</p>
+
+<br>
+
+The corrected values will now be updated into the table with he query below
+
+<p align="center">
+  <img src="LandUse_Updated_Query.jpg">
+  <br>Query 16
+</p>
+
+<br>
