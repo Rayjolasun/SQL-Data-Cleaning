@@ -385,7 +385,7 @@ The query below was then used to delete all rows from the RowNumCTE table where 
 
 <br>
 
-If I run **Query18** again, it will return zero which means all the duplicated values have been deleted.
+If I run **Query18** again, it will return empty table which means all the duplicated values have been deleted.
 
 
 <br>
