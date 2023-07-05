@@ -300,13 +300,13 @@ The count query above shows the count of each of the 3 distinct values which can
 In the above image, the value could be seen to be considerably high which could effectively sway the outcome of the analysis if not corrected.
 
 From the above image it could be seen that;
-**‘VACANT RESIENTIAL LAND’** haas 3 values
+**‘VACANT RESIENTIAL LAND’** has 3 values
 **‘VACANT RESIDENTIAL LAND’** has 3586 values
 **‘VACANT RES LAND’** has 1575 values
 
 <br>
 
-I now have to convert the mispelled words to **VACANT RESIDENTIAL LAND** and to do this I wrote the following query using case statement
+I now have to convert the misspelled words to **VACANT RESIDENTIAL LAND** and to do this I wrote the following query using case statement
 
 
 <p align="center">
@@ -316,7 +316,7 @@ I now have to convert the mispelled words to **VACANT RESIDENTIAL LAND** and to 
 
 <br>
 
-Looking at the above query shows that the mispelled values have been converted to **VACANT RESIDENTIAL LAND** as seen in the image below.
+Looking at the above query shows that the misspelled values have been converted to **VACANT RESIDENTIAL LAND** as seen in the image below.
 
 <br>
 
@@ -327,7 +327,7 @@ Looking at the above query shows that the mispelled values have been converted t
 
 <br>
 
-The corrected values will now be updated into the table with he query below
+The corrected values will now be updated into the table with the query below
 
 <p align="center">
   <img src="LandUse_Updated_Query.jpg">
@@ -336,7 +336,7 @@ The corrected values will now be updated into the table with he query below
 
 <br>
 
-If I run query 14 above again, we see that the 'VACANT RESIENTIAL LAND' and 'VACANT RESIDENTIAL LAND' strings are no longer available and the value of the ‘VACANT RESIDENTIAL LAND’ has increased from **3586** to **5164**
+If I run query 14 above again, we see that the 'VACANT RESIENTIAL LAND' and 'VACANT RESIDENTIAL LAND' strings are no longer available and the value of the ‘VACANT RESIDENTIAL LAND’ has increased from **3586** to **5164** as seen below
 
 <p align="center">
   <img src="LandUse_Updated_Image.jpg">
