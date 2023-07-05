@@ -391,3 +391,15 @@ If I run **Query18** again, it will return empty table which means all the dupli
 <br>
 
 ### Delete Unused Columns
+
+Since the Sale-Date2 column have been created, the Sale_Date column is no longer relevant to us, as you can see from the table's data. This will have to be removed.
+
+Although, eliminating columns from the raw data should not be done in practice, doing so helps save views for later use.
+The below query was used to remove the column.
+
+<p align="center">
+  <img src="Delete_Column_Query.jpg">
+  <br>Query 19
+</p>
+
+<br>
