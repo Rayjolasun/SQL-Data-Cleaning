@@ -397,9 +397,4 @@ Since the Sale-Date2 column have been created, the Sale_Date column is no longer
 Although, eliminating columns from the raw data should not be done in practice, doing so helps save views for later use.
 The below query was used to remove the column.
 
-<p align="center">
-  <img src="Delete_Column_Query.jpg">
-  <br>Query 19
-</p>
 
-<br>
