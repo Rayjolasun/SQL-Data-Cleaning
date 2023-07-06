@@ -1,12 +1,7 @@
 # Data Cleaning in SQL
 This is a documented personal project on Data cleaning with SQL and all the process are explained therein.
 
-<br>
 
-<p align="center">
-  <img src="Data_Cleaning_Image.jpg">
-  <br>
-</p>
 
 <br>
 
