@@ -48,13 +48,21 @@ There are more than 56600 rows on this dataset and 30 columns that are titled: U
 ## Skills / Concepts Demonstrated
 
 The following skills were demonstrated in this data cleaning project using SQL:
-- SQL database: The project requires knowledge and expertise in SQL for managing and manipulating relational databases
-- Data wrangling: Data cleaning requires the ability to identify and address errors, inconsistencies, and missing values in the data.
-- Data analysis: The project requires knowledge of data analysis techniques to identify patterns, trends, and insights in the data.
-- Data optimization: The project requires the ability to optimize the data structure for improved analysis and insights.
-- Problem-solving: Data cleaning projects require problem-solving skills to identify and address issues in the data.
-- Attention to detail: Data cleaning requires a keen eye for detail to ensure data accuracy and completeness.
-- Communication: The project requires effective communication skills to present findings and recommendations to stakeholders.
+1. Proficiency in SQL: The project requires a strong understanding and knowledge of SQL queries and functions to perform various data cleaning tasks such as renaming column names, standardizing column formats, populating null data, changing values, removing duplicates, and deleting columns.
+
+2. Data Analysis: Before making changes, the project necessitates a careful analysis of the dataset to identify areas that need improvement. This includes identifying misspellings, inconsistencies, duplicates, and unused columns. Data analysis skills are crucial for understanding the data and determining the appropriate cleaning actions.
+
+3. Data Cleaning Techniques: The project demonstrates competence in applying various data cleaning techniques, such as renaming columns, standardizing data formats, populating null values, correcting misspellings, removing duplicates, and deleting unused columns. These techniques require attention to detail and a systematic approach to ensure data quality.
+
+4. Data Validation: The project showcases skills in implementing data validation rules to ensure the accuracy and consistency of the data during the cleaning process. This involves validating data formats, ensuring referential integrity, and applying predefined rules to identify and fix data quality issues.
+
+5. Data Governance: The project demonstrates an understanding of data governance principles by following best practices such as establishing data standards, developing data cleaning scripts, defining responsibilities for data cleaning tasks, and implementing ongoing monitoring and maintenance procedures.
+
+6. Communication: The project requires effective communication skills to present findings and recommendations to stakeholders.
+
+
+Overall, this project showcases a combination of technical skills in SQL, data analysis, data cleaning techniques, data validation, and data governance. These skills are essential for effectively cleaning and maintaining data quality in an MSSQL Server environment.
+
 
 <br>
 
