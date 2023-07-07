@@ -1,3 +1,5 @@
+---DATA CLEANING USING SQL QUERY
+
 ```sql
 SELECT *
 FROM PortfolioProject2.dbo.NashvilleHousing
@@ -60,6 +62,7 @@ ADD Sale_Date2 Date;
 UPDATE [PortfolioProject2].[dbo].[NashvilleHousing]
 SET Sale_Date2 = TRY_CONVERT (date, Sale_Date)
 
+----- The above query gives the Datetime column and the added Date column.
 SELECT Sale_Date, Sale_Date2
 FROM [PortfolioProject2].[dbo].[NashvilleHousing]
 
