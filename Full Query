@@ -1,6 +1,7 @@
+```sql
 SELECT *
 FROM PortfolioProject2.dbo.NashvilleHousing
-
+```
 
 ---Rename column names (replacing the spacing with an underscore and capitalize the first letters)
 
