@@ -438,3 +438,9 @@ In conclusion, the data cleaning project using SQL Server has successfully achie
 By utilizing SQL queries and functions, implementing data validation rules, and developing data cleaning scripts, the project has improved the overall quality and consistency of the data stored.
 
 The cleaned dataset is now more reliable and accurate, enabling better decision-making, smoother analysis, and improved operational efficiency. Regular monitoring and ongoing data governance practices are essential to maintain the quality of the data in SQL Server.
+
+
+'''sql
+SELECT *
+FROM PortfolioProject2.dbo.NashvilleHousing
+'''
