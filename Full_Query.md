@@ -1,3 +1,5 @@
+---DATA CLEANING USING SQL QUERY
+
 ```sql
 SELECT *
 FROM PortfolioProject2.dbo.NashvilleHousing
@@ -54,12 +56,13 @@ SP_RENAME 'dbo.NashvilleHousing.Half Bath', 'Half_Bath', 'COLUMN';
 
 ---Standardize the Date format (Eliminating the time constraints from the Sale Date column)
 
-ALTER TABLE [PortfolioProject2].[dbo].[NashvilleHousing]
+ALTER TABLE [PortfolioProject2].[dbo].[NashvilleHousing]          ---This query was used to add the Sale_Date2 column
 ADD Sale_Date2 Date;
 
 UPDATE [PortfolioProject2].[dbo].[NashvilleHousing]
 SET Sale_Date2 = TRY_CONVERT (date, Sale_Date)
 
+-- The below query gives the Datetime column and the added Date column.
 SELECT Sale_Date, Sale_Date2
 FROM [PortfolioProject2].[dbo].[NashvilleHousing]
 
@@ -68,7 +71,7 @@ FROM [PortfolioProject2].[dbo].[NashvilleHousing]
 
 SELECT Property_Address
 FROM [PortfolioProject2].[dbo].[NashvilleHousing]
-WHERE Property_Address IS NULL
+WHERE Property_Address IS NULL          -----This gives 159 NULL values which will be populated
 
 
 --Count Property_Address Null Data
