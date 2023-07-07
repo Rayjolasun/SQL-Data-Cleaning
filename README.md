@@ -16,7 +16,7 @@ Data cleaning is a crucial process in any data analytics project, as it ensures 
 In this project, I used the Microsoft SQL Server in cleaning the dataset.
                                                       
 
-The full query for this project can be found [here]()
+The full query for this project can be found [here](Full_Query.md)
                                                       
 
 ### Data Sourcing
