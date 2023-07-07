@@ -419,3 +419,22 @@ The below query was used to remove the column.
 </p>
 
 <br>
+
+
+### Recommendation:
+
+1. Utilize SQL queries and functions: Utilize SQL queries and functions to rename column names, standardize sales date column format, populate null property address and city data, change abbreviations and correct misspellings in the column land use.
+
+2. Implement data validation rules: Apply data validation rules to ensure consistency and accuracy when making changes. This will help maintain data integrity throughout the cleaning process.
+
+3. Develop data cleaning scripts: Write scripts to identify and remove duplicates from the dataset. This will help reduce data redundancy and improve data quality.
+
+4. Perform a thorough analysis: Before deleting any unused columns, conduct a thorough analysis to confirm their irrelevance. Ensure that removing these columns will not impact any existing or future data analysis requirements.
+
+### Conclusion:
+
+In conclusion, the data cleaning project using SQL Server has successfully achieved the objectives of renaming column names, standardizing the sales date column format, populating null property address and city data, changing abbreviations and correcting misspellings in the column land use, removing duplicates, and deleting unused columns.
+
+By utilizing SQL queries and functions, implementing data validation rules, and developing data cleaning scripts, the project has improved the overall quality and consistency of the data stored.
+
+The cleaned dataset is now more reliable and accurate, enabling better decision-making, smoother analysis, and improved operational efficiency. Regular monitoring and ongoing data governance practices are essential to maintain the quality of the data in SQL Server.
